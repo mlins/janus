@@ -99,6 +99,9 @@ set modelines=10
 " Default color scheme
 color desert
 
+" Swap location to tmp
+set directory=/tmp//
+
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
